@@ -15,7 +15,7 @@
 
 # User serviceable parts:
 USER="KF8ADQ-10"
-PASS="17588"                        # https://apps.magicbug.co.uk/passcode/
+PASS="1234567"                        # https://apps.magicbug.co.uk/passcode/
 DIREWOLFHOSTNAME=localhost
 
 # Call Phyton script to get data from Weather Underground
