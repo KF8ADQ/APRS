@@ -4,15 +4,14 @@
 #                                                                                                      
 # send an aprs weather packet to aprsis and RF                                                            
 #                                                                                                         
-# Install requirements (weewx, weewx-aprs weewx extension, direwolf):                                        
-#    apt-get install weewx                                                                                     
-#    wget https://github.com/cavedon/weewx-aprs/archive/refs/heads/master.zip                                  
-#    wee_extension --install=master.zip                                                                             
-#    apt-get install direwolf                                                                                       
+# Install requirements (telnet, python, direwolf):                                                                                                                 
+#    apt-get install direwolf 
+#    apt-get install telnet
+#    apt-get install python3                                                                              
 #                                                                                                                     
 #  (C)2022 Craig Lamparter                                                                                             
 #  GPL v2                                                                                                               
-#
+#  Modified by KF8ADQ - to replace Weewx with WeatherUnderGround API (weather.py)
 
 # User serviceable parts:
 USER="KF8ADQ-10"
