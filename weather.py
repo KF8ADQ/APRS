@@ -10,7 +10,7 @@ Now = (T.strftime("%H"))
 Now += (T.strftime("%M"))
 Now += (T.strftime("%S"))
 
-url = 'https://api.weather.com/v2/pws/observations/current?stationId=KOHKENT53&format=json&units=e&apiKey=77348382ddaf4d28b48382ddaf1d2815'
+url = 'https://api.weather.com/v2/pws/observations/current?stationId=YOURSTATIONHERE&format=json&units=e&apiKey=YOURKEYHERE'
 response = requests.get(url)
 if response.status_code == 200:
 	data = json.loads(response.text)
