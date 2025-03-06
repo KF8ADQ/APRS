@@ -14,7 +14,7 @@
 #  Modified by KF8ADQ - to replace Weewx with WeatherUnderGround API (weather.py)
 
 # User serviceable parts:
-USER="KF8ADQ-10"
+USER="KF8ADQ"
 PASS="1234567"                        # https://apps.magicbug.co.uk/passcode/
 DIREWOLFHOSTNAME=localhost
 
