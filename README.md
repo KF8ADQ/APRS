@@ -1,5 +1,5 @@
 This project is based on the code from KM6LYW
-I wanted to send my weather data from WeatherUnderGround API to APRS via DireWolf
+I wanted to send my weather data from Weather UnderGround API to APRS via DireWolf
 The code and process assume you are comfortable with modifying files in Linux/Debian
 You will need to get an API key for your Weather Underground PWS (https://www.wunderground.com/member/api-keys)
 
